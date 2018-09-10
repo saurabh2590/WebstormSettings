@@ -11,4 +11,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="rCON" value="import {connect} from 'react-redux';&#10;import {$Component$, $Component$DispatchProps, $Component$StateProps} from './$Component$';&#10;&#10;export const mapDispatchToProps = (dispatch: Dispatch): $Component$DispatchProps =&gt; ({&#10;});&#10;&#10;const mapStateToProps = (state: ApplicationState): $Component$StateProps =&gt; {&#10;  return {   &#10;  };&#10;};&#10;&#10;export const $Component$Container = connect(&#10;  mapStateToProps, mapDispatchToProps)($Component$);&#10;" description="Creates container definition" toReformat="false" toShortenFQNames="true">
+    <variable name="Component" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
