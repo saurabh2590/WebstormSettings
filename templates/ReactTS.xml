@@ -1,0 +1,14 @@
+<templateSet group="ReactTS">
+  <template name="rC" value="import * as React from 'react';&#10;&#10;interface $Component$Props {&#10;  something: null;&#10;}&#10;&#10;export type $Component$DispatchProps = {};&#10;export type $Component$StateProps = {};&#10;export type $Component$Props = $Component$DispatchProps &amp; $Component$StateProps;&#10;export type $Component$State = {};&#10;&#10;export class $Component$ extends React.Component&lt;$Component$Props, $Component$State&gt; {&#10;  render() {&#10;    return (&#10;      &lt;div&gt;&#10;        &lt;h1&gt;Home&lt;/h1&gt;&#10;        &lt;p&gt;The Home Page is accessible by every signed in user.&lt;/p&gt;&#10;      &lt;/div&gt;&#10;    );&#10;  }&#10;}" description="Creates react component" toReformat="false" toShortenFQNames="true">
+    <variable name="Component" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rSFC" value="import * as React from 'react';&#10;import * as styles from './$Component$.scss';&#10;&#10;&#10;export type $Component$Props = {};&#10;&#10;export const $Component$: React.SFC&lt;$Component$Props&gt; =&#10;  (props: $Component$Props) =&gt; {&#10;    return (&#10;      &lt;h1&gt;Hello&lt;/h1&gt;&#10;    );&#10;  };&#10;&#10;&#10;" description="Creates stateless component" toReformat="false" toShortenFQNames="true">
+    <variable name="Component" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
