@@ -1,5 +1,5 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping ext="mp3" type="Native" />
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
