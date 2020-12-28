@@ -2,12 +2,14 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping ext="mp3" type="Native" />
+      <mapping pattern=".env_production" type="PLAIN_TEXT" />
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".env.staging" type="PLAIN_TEXT" />
       <mapping pattern=".env.development" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="11879" type="PLAIN_TEXT" />
+      <mapping pattern=".env_staging" type="PLAIN_TEXT" />
       <mapping pattern="UserSubmissionsStorageStack-pro00.yaml" type="YAML" />
     </extensionMap>
   </component>
