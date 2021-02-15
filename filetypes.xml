@@ -11,6 +11,7 @@
       <mapping pattern=".env.development" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="11879" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".env_staging" type="PLAIN_TEXT" />
       <mapping pattern="UserSubmissionsStorageStack-pro00.yaml" type="YAML" />
     </extensionMap>
