@@ -2,5 +2,6 @@
   <component name="OverrideFileTypeManager">
     <file url="file://$USER_HOME$/Documents/Bettermarks/Codeworkspace/bm-aws-stack/lib/types.ts" value="TypeScript" />
     <file url="file://$USER_HOME$/Documents/Bettermarks/Codeworkspace/bm-aws-stack/src/dynamoDb/types.ts" value="TypeScript" />
+    <file url="file://$USER_HOME$/Documents/Bettermarks/Codeworkspace/bm-center/src-react/src/types.ts" value="TypeScript" />
   </component>
 </application>
